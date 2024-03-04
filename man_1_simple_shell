@@ -1,0 +1,61 @@
+.\" Manpage for my_shell.
+.TH my_shell 1 "2024-03-04" GNU "my_shell user manual"
+
+.SH NAME
+.B my_shell
+- An abbreviated version of a UNIX shell (A command line interpreter)
+
+.SH SYNOPSIS
+Execute the compiled executable. For instance, use: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_shell
+.br
+.B ./my_shell
+
+.SH DESCRIPTION
+Generates a command prompt for users to input valid commands for execution. Users have the option to specify a valid path to the executable of a desired command.
+.br
+Advanced functionalities such as variable expansions, pattern matching, redirection, and piping, among others, which are available in the original shell, are not included.
+
+.SH USAGE
+Here are some common commands that can be utilized:
+
+.br
+.B /bin/ls
+- Displays files in the current working directory (Ensure the path to the binary is provided)
+
+.br
+.B ls [[option]...[file] ... ]
+- Lists files in the current working directory
+
+.br
+.B exit [status_code]
+- Terminates the shell and returns to the original shell environment
+
+.br
+.B pwd
+- Prints the current working directory
+
+.br
+.B More
+- Additional commands like df can also be executed
+
+.SH EXAMPLE
+Enter 
+.B ./my_shell 
+in the terminal to activate.
+
+.sp
+.br
+.B "#cisfun$ "
+- An empty prompt will appear.
+.br 
+.B "#cisfun$ ls -l" 
+- Outputs all files in the current directory.
+
+.SH RETURN VALUES
+The output of the executed command (e.g., files for ls) or no output (e.g., when exit is executed).
+
+.SH BUGS
+No known issues.
+
+.SH AUTHOR
+Viwe Mrayise
