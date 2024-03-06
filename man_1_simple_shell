@@ -39,16 +39,16 @@ Here are some common commands that can be utilized:
 - Additional commands like df can also be executed
 
 .SH EXAMPLE
-Enter 
-.B ./my_shell 
+Enter
+.B ./my_shell
 in the terminal to activate.
 
 .sp
 .br
 .B "#cisfun$ "
 - An empty prompt will appear.
-.br 
-.B "#cisfun$ ls -l" 
+.br
+.B "#cisfun$ ls -l"
 - Outputs all files in the current directory.
 
 .SH RETURN VALUES
